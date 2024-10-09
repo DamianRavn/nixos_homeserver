@@ -151,6 +151,14 @@ prefixLength = 24;
     };
   };
 
+  environment = {
+    variables = {
+      EDITOR = "hx";
+      SYSTEMD_EDITOR = "hx";
+      VISUAL = "hx";
+    };
+  };
+
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
